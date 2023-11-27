@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <title>ICE STORE - A MODA STREETWEAR</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="./app.js"></script>
+    
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body ng-app="App">
+      
+
+    <nav class="nav side-left">
+        <input type="checkbox" name="menu" id="menu">
+        <label for="menu"></label>      
+        <div class="logo"></div>
+        <section class="items">
+        <div class="icon">
+        <a href="#/"><img src="./images/icons/casa.png" alt="inicio" class="icon-img">
+        <p>Inicio</p></a>
+        </div>
+        <div class="icon">
+            <a href="#tenis" ><img src="./images/icons/sneakers.png" alt="calçados" class="icon-img">
+            <p>Tenis</p></a>
+        </div>
+        <div class="icon">
+            <a href="#acessorios" ><img src="./images/icons/acessorios.png" alt="acessorios" class="icon-img">
+            <p>Acessórios</p></a>
+        </div>
+        <div class="icon">
+            <a href="#camisas" ><img src="./images/icons/camisa.png" alt="camisas" class="icon-img">
+            <p>Camisas</p></a>
+        </div>
+        <div class="icon">
+            <a href="#headshop" ><img src="./images/icons/bong.png" alt="headshop" class="icon-img">
+            <p>HeadShop</p></a>
+        </div>
+        <div class="icon bottom-position">
+            <a href="#cart" ><img src="./images/icons/cart.png" alt="" class="icon-img">
+            <p>Carrinho</p>
+         </a>
+        </div>  
+    </section>
+    </nav>
+
+
+    <div ng-view class="viewer"></div>
+
+    <script src="./script/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
